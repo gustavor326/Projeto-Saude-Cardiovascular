@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .cor_letra{
+            color: #760000;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <div class="container">
+         <nav class="navbar navbar-expand-md bg-white mt-4 rounded p-2"> 
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="Imagens/Cardio_+-removebg-preview 1.png" class="img-responsive ms-5" style="width: 90px;">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left: 32%;">
+                  <li class="nav-item fw-bolder fs-5 pe-3">
+                    <a class="nav-link active" href="#sobre"><p>Sobre Saúde Cardiovascular</p></a>
+                  </li>
+                </ul>
+                
+
+                <div class="container-fluid">
+                    <div class="row text-end">
+                      <div class="col" style="margin-right: 14%;">
+                        <i class="bi bi-person-circle" style="font-size: 50px;">
+                        </i> 
+                      </div>
+                      <div class="row">
+                          <div class="col text-end" style="margin-right: 1%;">
+                            <a href="" class="text-light-emphasis" style="text-decoration: none;">
+                              <p><strong>Faça seu Login</strong></p>
+                          </a>
+                        </div>
+                      </div>
+            </div>
+          </div>
+          </nav>
+
+      
+
+          <main>
+            <div class="container text-center mt-4 text-dark rounded bg-white pt-4">
+                <img class="pt-3" src="Imagens/Cadastro Usuario.png" alt="">
+
+                <div class="pt-4">
+                <h6 class="text-start pt-2">Nome:</h6>
+                    <input type="text" id="Nome" class="form-control mt-3" aria-describedby="name" placeholder="Digite seu nome">
+                </div>
+
+                <div class="pt-2">
+                    <h6 class="text-start pt-2">CPF:</h6>
+                        <input type="text" id="CPF" class="form-control mt-3" aria-describedby="name" placeholder="Digite seu CPF">
+                </div>
+
+                <div class="pt-2">
+                    <h6 class="text-start pt-2">Data de Nascimento:</h6>
+                        <input type="date" id="Nascimento" class="form-control mt-3" aria-describedby="name" placeholder="Digite sua Data de Nascimento">
+                </div>
+
+                <div class="pt-2">
+                  <h6 class="text-start pt-2">Endereço:</h6>
+                      <input type="text" id="Endereço" class="form-control mt-3" aria-describedby="name" placeholder="Digite seu Endereço">
+                </div>
+
+                <div class="pt-2">
+                  <h6 class="text-start pt-2">E-mail:</h6>
+                  <input type="email" class="form-control mt-3" id="exampleFormControlInput1" placeholder="Digite o seu E-mail">
+                </div>
+
+                <div class="pt-2">
+                    <h6 class="text-start pt-2">CRM:</h6>
+                    <input type="number" class="form-control mt-3" id="exampleFormControlInput1" placeholder="Digite o seu CRM">
+                </div>
+
+                <div class="pt-2">
+                    <h6 class="text-start pt-2">Especialidade:</h6>
+                    <input type="number" class="form-control mt-3" id="exampleFormControlInput1" placeholder="Digite sua Especialidade">
+                </div>
+
+
+                <h6 class="pt-4">Anexe sua carteira profissional de médico:</h6>
+                <div class="input-group mb-5 mt-3 w-50 offset-sm-3">
+                    <input type="file" class="form-control" id="inputGroupFile02">
+                </div>
+
+
+                <div class="d-grid gap-2 mt-4 mb-4 pb-4 ">
+                  <button class="btn btn-danger" type="submit" style=" background-color: #760000;">ENVIAR</button>
+                </div>
+                
+            </div>
+            
+          </main>
+
+          <footer>
+            <p>SAÚDE CARDIOVASCULAR</p>
+            <p>Copyright ©2024 Conexa. Todos os direitos reservados</p>
+          </footer>

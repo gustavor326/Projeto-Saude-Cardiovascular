@@ -1,0 +1,32 @@
+
+/*Estilo do Body*/
+body {
+    background-color: #760000;
+}
+/*Estilo do Cabeçalho*/
+
+a {
+    text-decoration: none;
+    color: #4E4C4C;
+    font-family:"Inter", sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+
+/*Estilo do Cabeçalho*/
+footer {
+    background-color: #D3CBCB;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 5px;
+    padding-top: 10px;
+    color: #000000;
+    font-family:"Inter", sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+}

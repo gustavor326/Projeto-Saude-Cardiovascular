@@ -22,6 +22,12 @@
         .campos{
             background-color: #D9D9D9;
         }
+
+        img{
+          padding: 10px;
+          width: 25%;
+          border-radius: 20px;
+        }
       
         
     </style>
@@ -33,13 +39,13 @@
             <nav>
                 <ul>
                     <li><img src="Imagens/logo.png" alt=""></li>
-                    <li><a href="#sobre">Início</a></li>
+                    <li><a href="index.html">Início</a></li>
                     <li><a href="#sobre">Seus Resultados</a></li>
                     <li><a href="#sobre">Fórum</a></li>
                     <li>
                         <div class="flexboxlogin">
-                          <a href=""><img src="Imagens/person-circle.svg" alt="">
-                            <p>Faça seu Login/ Cadastre-se</p></a>
+                          <a href="cadastro.html"><img src="Imagens/person-circle.svg" alt="">
+                            <p>Faça seu Login</p></a>
                         </div>
                     </li>
                 </ul>
@@ -51,110 +57,129 @@
 
             <div class="container text-center mt-4 text-dark rounded bg-white pt-4">
                 
-                <h5 class="mt-3">Olá João,  vamos dar início ao preenchimento do seu formulário</h5>
+                <h4 class="mt-3">Olá João,  vamos dar início ao preenchimento do seu formulário</h4>
                 
-                    <p class="text-start mt-4 fs-4">Sobre Dieta</p>
-                    <div class="text-center">
-                      <p>Qual opção de refeição se assemelha melhor com o que você costuma comer no Café da Manhã?</p>
-                      <div class="text-start mt-4 mb-5">
-                        <div class="campos rounded mb-3">
-                          <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
-                          <span>Opção 01: Batata doce, ovo frito e suco de abacaxi</span>
-                        </div>
-      
-                        <div class="campos rounded mb-3">
-                          <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
-                          <span>Opção 02: Cuscuz, ovo frito e suco de goiaba</span>
-                        </div>
-      
-                        <div class="campos rounded mb-3">
-                          <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
-                          <span>Opção 03: Inhame, ovo cozido e uma xícara de café</span>
-                        </div>
-      
-                        <div class="campos rounded mb-3">
-                          <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
-                          <span>Opção 04: Nenhuma das opções acima</span>
-                        </div>
-                      </div>
+            <p class="text-start mt-4 fs-4">Sobre Dieta</p>
 
-
-                <p>Qual opção de refeição se assemelha melhor com o que você costuma comer no Almoço?</p>
-                <div class="text-start mt-4 mb-5">
-                  <div class="campos rounded mb-3">
-                    <input class="form-check-input" type="radio" name="radioNoLabe" id="radioNoLabel1" value="" aria-label="...">
-                    <span>Opção 01: Bife na chapa, salada de alface, cebola e tomate, arroz, feijão e suco de
-                    abacaxi</span>
-                  </div>
-
-                  <div class="campos rounded mb-3">
-                    <input class="form-check-input" type="radio" name="radioNoLabe" id="radioNoLabel1" value="" aria-label="...">
-                    <span>Opção 02: Frango grelhado, salada de alface, cebola e tomate, purê, feijão e suco de
-                    goiaba</span>
-                  </div>
-
-                  <div class="campos rounded mb-3">
-                    <input class="form-check-input" type="radio" name="radioNoLabe" id="radioNoLabel1" value="" aria-label="...">
-                    <span>Opção 03: Peixe grelhado, salada de alface, tomate e cebola, arroz e suco de goiaba</span>
-                  </div>
-
-                  <div class="campos rounded mb-3">
-                    <input class="form-check-input" type="radio" name="radioNoLabe" id="radioNoLabel1" value="" aria-label="...">
-                    <span>Opção 04: Nenhuma das opções acima</span>
-                  </div>
+            <div class="text-center">
+              <p class="fs-5">Qual opção de refeição se assemelha melhor com o que você costuma comer no Café da Manhã?</p>
+              <div class="text-start mt-4 mb-5">
+                <div class="campos rounded mb-3">
+                  <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+                  <span>Opção 01: Salada de Frutas</span><br>
+                  <img src="Imagens/Refeições/Lanche_Salada_de_frutas.jpeg" alt="">
                 </div>
 
-                <p>Qual opção de refeição se assemelha melhor com o que você costuma comer Jantar?</p>
-                <div class="text-start mt-4 mb-5">
-                  <div class="campos rounded mb-3">
-                    <input class="form-check-input" type="radio" name="radioNoLab" id="radioNoLabel1" value="" aria-label="...">
-                    <span>Opção 01: Inhame, ovo cozido e café</span>
-                  </div>
-
-                  <div class="campos rounded mb-3">
-                    <input class="form-check-input" type="radio" name="radioNoLab" id="radioNoLabel1" value="" aria-label="...">
-                    <span>Opção 02: Macaxeira, queijo coalho e uma xícara de café</span>
-                  </div>
-
-                  <div class="campos rounded mb-3">
-                    <input class="form-check-input" type="radio" name="radioNoLab" id="radioNoLabel1" value="" aria-label="...">
-                    <span>Opção 03: Pão integral, ovo frito e suco de goiaba</span>
-                  </div>
-
-                  <div class="campos rounded mb-3">
-                    <input class="form-check-input" type="radio" name="radioNoLab" id="radioNoLabel1" value="" aria-label="...">
-                    <span>Opção 04: Nenhuma das opções acima</span>
-                  </div>
+                <div class="campos rounded mb-3">
+                  <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+                  <span>Opção 02: Cuscuz, ovo frito e suco de goiaba</span><br>
+                  <img src="Imagens/Refeições/Cafe_da_manha_Cuzcuz_ovo_frito_e_suco_de_goiaba.jpeg" alt="">
                 </div>
 
-
-                <p>Qual opção de refeição se assemelha melhor com o que você costuma comer no Lanche?</p>
-                <div class="text-start mt-4">
-                  <div class="campos rounded mb-3">
-                    <input class="form-check-input" type="radio" name="radioNoLa" id="radioNoLabel1" value="" aria-label="...">
-                    <span>Opção 01: Iogurte desnatado, mel e mix de castanhas</span>
-                  </div>
-
-                  <div class="campos rounded mb-3">
-                    <input class="form-check-input" type="radio" name="radioNoLa" id="radioNoLabel1" value="" aria-label="...">
-                    <span>Opção 02: Mamão fatiado</span>
-                  </div>
-
-                  <div class="campos rounded mb-3">
-                    <input class="form-check-input" type="radio" name="radioNoLa" id="radioNoLabel1" value="" aria-label="...">
-                    <span>Opção 03: Mix castanha de caju, castando do Pará e amendoim</span>
-                  </div>
-
-                  <div class="campos rounded mb-3">
-                    <input class="form-check-input" type="radio" name="radioNoLa" id="radioNoLabel1" value="" aria-label="...">
-                    <span>Opção 04: Nenhuma das opções acima</span>
-                  </div>
+                <div class="campos rounded mb-3">
+                  <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+                  <span>Opção 03: Inhame, ovo cozido e uma xícara de café</span><br>
+                  <img src="Imagens/Refeições/Cafe_da_manha_Jantar_Inhame_ovo_cozido_e_cafe.jpeg" alt="">
                 </div>
-                
-                <div class="d-grid gap-2 mt-4 pb-4">
-                   <button class="btn btn-danger" type="button" style=" background-color: #760000;">PRÓXIMA PÁGINA</button>
+
+                <div class="campos rounded mb-3">
+                  <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+                  <span>Opção 04: Nenhuma das opções acima</span>
+                </div>
               </div>
-            </div>
+
+
+        <p class="fs-5">Qual opção de refeição se assemelha melhor com o que você costuma comer no Almoço?</p>
+        <div class="text-start mt-4 mb-5">
+          <div class="campos rounded mb-3">
+            <input class="form-check-input" type="radio" name="radioNoLabe" id="radioNoLabel1" value="" aria-label="...">
+            <span>Opção 01: Bife na chapa, salada de alface, cebola e tomate, arroz, feijão e suco de
+            abacaxi</span><br>
+            <img src="Imagens/Refeições/Almoco_Bife_na_chapa_salada_de_alface_ceboala_e_tomate_arroz_feijao_e_suco_de_abacaxi.jpeg" alt="">
+          </div>
+
+          <div class="campos rounded mb-3">
+            <input class="form-check-input" type="radio" name="radioNoLabe" id="radioNoLabel1" value="" aria-label="...">
+            <span>Opção 02: Frango grelhado, salada de alface, cebola e tomate, purê, feijão e suco de
+            goiaba</span><br>
+            <img src="Imagens/Refeições/Almoco_Frango_grelhado_salada_de_alface_cebola_e_tomate_pure_feijao_e_suco_de_goiaba.jpeg" alt="">
+          </div>
+
+          <div class="campos rounded mb-3">
+            <input class="form-check-input" type="radio" name="radioNoLabe" id="radioNoLabel1" value="" aria-label="...">
+            <span>Opção 03: Peixe grelhado, salada de alface, tomate e cebola, arroz e suco de goiaba</span><br>
+            <img src="Imagens/Refeições/Almoco_Peixe_grelhado_salada_de_alface_tomate_e_cebola_arroz_e_suco_de_goiaba.jpeg" alt="">
+          </div>
+
+          <div class="campos rounded mb-3">
+            <input class="form-check-input" type="radio" name="radioNoLabe" id="radioNoLabel1" value="" aria-label="...">
+            <span>Opção 04: Nenhuma das opções acima</span>
+          </div>
+        </div>
+
+        <p class="fs-5">Qual opção de refeição se assemelha melhor com o que você costuma comer Jantar?</p>
+        <div class="text-start mt-4 mb-5">
+          <div class="campos rounded mb-3">
+            <input class="form-check-input" type="radio" name="radioNoLab" id="radioNoLabel1" value="" aria-label="...">
+            <span>Opção 01: Inhame, ovo cozido e café</span><br>
+            <img src="Imagens/Refeições/Cafe_da_manha_Jantar_Inhame_ovo_cozido_e_cafe.jpeg" alt="">
+          </div>
+
+          <div class="campos rounded mb-3">
+            <input class="form-check-input" type="radio" name="radioNoLab" id="radioNoLabel1" value="" aria-label="...">
+            <span>Opção 02: Macaxeira, queijo coalho e uma xícara de café</span><br>
+            <img src="Imagens/Refeições/Jantar_Macaxeira_queijo_coalho_e_cafe.jpeg" alt="">
+          </div>
+
+          <div class="campos rounded mb-3">
+            <input class="form-check-input" type="radio" name="radioNoLab" id="radioNoLabel1" value="" aria-label="...">
+            <span>Opção 03: Pão integral, ovo frito e suco de goiaba</span><br>
+            <img src="Imagens/Refeições/jantar_Pao_integral_ovo_frito_e_suco_de_goiaba.jpeg" alt="">
+            
+          </div>
+
+          <div class="campos rounded mb-3">
+            <input class="form-check-input" type="radio" name="radioNoLab" id="radioNoLabel1" value="" aria-label="...">
+            <span>Opção 04: Nenhuma das opções acima</span>
+          </div>
+        </div>
+
+
+        <p class="fs-5">Qual opção de refeição se assemelha melhor com o que você costuma comer no Lanche?</p>
+        <div class="text-start mt-4">
+          <div class="campos rounded mb-3">
+            <input class="form-check-input" type="radio" name="radioNoLa" id="radioNoLabel1" value="" aria-label="...">
+            <span>Opção 01: Iogurte desnatado, mel e mix de castanhas</span><br>
+            <img src="Imagens/Refeições/Lanche_Iorgurte_desnatado_mel_e_mix_de_castanhas.jpeg" alt="">
+          </div>
+
+          <div class="campos rounded mb-3">
+            <input class="form-check-input" type="radio" name="radioNoLa" id="radioNoLabel1" value="" aria-label="...">
+            <span>Opção 02: Mamão fatiado </span><br>
+            <img src="Imagens/Refeições/Lanche_Mamao_fatiado.jpeg" alt="">
+          </div>
+          
+
+          <div class="campos rounded mb-3">
+            <input class="form-check-input" type="radio" name="radioNoLa" id="radioNoLabel1" value="" aria-label="...">
+            <span>Opção 03: Mix castanha de caju, castando do Pará e amendoim</span><br>
+            <img src="Imagens/Refeições/Lanche_Mix_castanha_de_caju_castando_do_Para_e_amendoim.jpeg" alt="">
+          </div>
+
+          <div class="campos rounded mb-3">
+            <input class="form-check-input" type="radio" name="radioNoLa" id="radioNoLabel1" value="" aria-label="...">
+            <span>Opção 04: Nenhuma das opções acima</span>
+          </div>
+        </div>
+        
+        <div class="d-grid gap-2 mt-4 pb-4">
+          <button class="btn btn-danger" type="button" style=" background-color: #760000;">PRÓXIMA PÁGINA</button>
+      </div>
+    </div>
+
+
+
+
           </div>
         </main>
 

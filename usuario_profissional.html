@@ -20,7 +20,10 @@
     </style>
 
     <script>
-      
+
+          function valor(){
+            console.log(document.getElementById('Usuario').value)
+          }
 
     </script>
 </head>
@@ -47,21 +50,21 @@
         <main>
          <div class="container text-center mt-4 text-dark rounded bg-white pt-4 mb-5">
             <img class="pb-4" src="Imagens/Escolha_uma_opção.png" alt="">
-
+          <form action="">
             <p class="termo">SOU USUÁRIO CONVENCIONAL</p>
             <div class="mb-4">
-              <input class="form-check-input" style="width: 35px; height: 31px;" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <input class="form-check-input" style="width: 35px; height: 31px;" type="radio" name="flexRadioDefault" id="Usario">
             </div>
 
             <p class="termo">SOU PROFISSIONAL DA SAÚDE</p>
             <div class="mb-4">
-              <input class="form-check-input" style="width: 35px; height: 31px;" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <input class="form-check-input" style="width: 35px; height: 31px;" type="radio" name="flexRadioDefault" id="Profissional" checked>
             </div>
             
             <div class="d-grid gap-2 mt-5 mb-4 pb-5">
                 <button class="btn btn-danger" type="button" style=" background-color: #760000;">ENVIAR</button>
             </div>
-            
+          </form>
             
          </div>
         </main>

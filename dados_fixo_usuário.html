@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="dados_fixo_usuario.css">
+    
+    <style>
+        .cor_letra{
+            color: #760000;
+        }
+    </style>
+</head>
+<body>
+
+            <header>
+              <div class="container">
+              <nav>
+                  <ul>
+                      <li><img src="Imagens/logo.png" alt="" class="resized-image"></li>
+                      <li><a href="#sobre">Sobre Saúde Cardiovascular</a></li>
+                      <li>
+                          <div class="flexboxlogin">
+                            <a href=""><img src="Imagens/person-circle.svg" alt="">
+                              <p>Faça seu Login</p></a>
+                          </div>
+                      </li>
+                  </ul>
+              </nav>
+            </div>
+          </header>
+
+      
+
+          <main>
+            <div class="container text-center mt-4 text-dark rounded bg-white pt-4">
+                <img class="sms" src="Imagens/seumapadasaude.PNG" alt="seu mapa de saúde">
+
+                <div class="linha-separadora"></div>
+
+                <div class="pt-5">
+                  <h4 class="texto-inicial"><b>Abaixo informe seus dados sobre sua saúde</b></h4>
+                </div>
+
+                <div class="pt-4">
+                <h6 class="text-start pt-2">Possui alguma dessas doenças cardiovasculares?</h6>
+                <button class="btn btn-danger meu-botaon" type="button">Diabetes</button>
+                <button class="btn btn-danger meu-botao" type="button">Hipertensão</button>
+                <button class="btn btn-danger meu-botao" type="button">Dislipidemia ( Colesterol alto )</button>
+                <button class="btn btn-danger meu-botao" type="button">Outros</button>
+                </div>
+
+                <div class="pt-2">
+                    <h6 class="text-start pt-2">Faz uso de medicação continuada?</h6>
+                    <button class="mib" id="bRevelar" aria-label="Mostrar/esconder botões de medicação"></button>
+
+                    <div id="bEscondidos">
+                      <button class="botaoa">SIM</button>
+                      <button class="botaoa">Não</button>
+                    </div>
+                  </div>
+                  <style>
+                    #bRevelar {
+                      background-color: #D9D9D9;
+                      color: #000000;
+                      font-family: "Inter", sans-serif;
+                      font-size: 10px;
+                      padding: 5px 10px;
+                      display: block;
+                      /* Ajuste a posição do botão como desejar */
+                      margin: 0 auto;
+                      margin-bottom: 3px;
+                      margin-top: 45px;
+                      width: 500px;
+                      border-radius: 20px;
+                      border-color: #760000;
+                    }
+                  
+                    #bEscondidos {
+                      height: 0; /* Altura inicial zero */
+                      overflow: hidden; /* Esconde o conteúdo que excede a altura */
+                      transition: height 0.5s ease; /* Define a animação de transição */
+                      border-color: #760000
+                    }
+                  
+                    #bEscondidos.show {
+                      height: auto; /* Permite que a altura se ajuste ao conteúdo */
+                    }
+                  
+                    .botaoa {
+                      background-color: #D9D9D9;
+                      color: #000000;
+                      font-family: "Inter", sans-serif;
+                      font-size: 10px;
+                      padding: 5px 10px;
+                      display: block;
+                      width: 50%; /* Use largura relativa para responsividade */
+                      margin: 0 auto;
+                      margin-bottom: 3px;
+                      margin-top: 45px;
+                      border-radius: 20px;
+                      border-color: #FFFFFF;
+                      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); /* Sombra externa */
+                      transition: background-color 0.3 ease;
+                    
+                    }
+                    .botaoa:hover {
+                      background-color: #760000; /* red on hover */
+                    }
+                  </style>
+                  
+                  <script>
+                    const bRevelar = document.getElementById('bRevelar');
+                    const bEscondidos = document.getElementById('bEscondidos');
+                  
+                      bRevelar.addEventListener('click', () => {
+                      bEscondidos.classList.toggle('show');
+                    });
+                  </script>
+
+                <div class="pt-2">
+                    <h6 class="text-start pt-2">Possui histórico de doenças cardiovasculares na família?</h6>
+                    <button class="mibb" id="aRevelar" aria-label="Mostrar/esconder botões de medicação"></button>
+
+                    <div id="aEscondidos">
+                      <button class="botaob">SIM</button>
+                      <button class="botaob">Não</button>
+                    </div>
+                  </div>
+                  <style>
+                    #aRevelar {
+                      background-color: #D9D9D9;
+                      color: #000000;
+                      font-family: "Inter", sans-serif;
+                      font-size: 10px;
+                      padding: 5px 10px;
+                      display: block;
+                      /* Ajuste a posição do botão como desejar */
+                      margin: 0 auto;
+                      margin-bottom: 3px;
+                      margin-top: 45px;
+                      width: 500px;
+                      border-radius: 20px;
+                      border-color: #760000
+                    }
+                  
+                    #aEscondidos {
+                      height: 0; /* Altura inicial zero */
+                      overflow: hidden; /* Esconde o conteúdo que excede a altura */
+                      transition: height 0.5s ease; /* Define a animação de transição */
+                    }
+                  
+                    #aEscondidos.show {
+                      height: auto; /* Permite que a altura se ajuste ao conteúdo */
+                    }
+                  
+                    .botaob {
+                      background-color: #D9D9D9;
+                      color: #000000;
+                      font-family: "Inter", sans-serif;
+                      font-size: 10px;
+                      padding: 5px 10px;
+                      display: block;
+                      width: 50%; /* Use largura relativa para responsividade */
+                      margin: 0 auto;
+                      margin-bottom: 3px;
+                      margin-top: 45px;
+                      border-radius: 20px;
+                      border-color: #FFFFFF;
+                      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); /* Sombra externa */
+                      transition: background-color 0.3 ease;
+                    }
+                    .botaob:hover {
+                      background-color: #760000; /* red on hover */
+                    }
+                  </style>
+                  
+                  <script>
+                    const aRevelar = document.getElementById('aRevelar');
+                    const aEscondidos = document.getElementById('aEscondidos');
+                  
+                    aRevelar.addEventListener('click', () => {
+                      aEscondidos.classList.toggle('show');
+                    });
+                  </script>
+
+                <div class="pt-2">
+                  <h6 class="text-start pt-2">Sexo</h6>
+                  <button class="mibbb" id="sRevelar" aria-label="Mostrar/esconder botões de medicação"></button>
+
+                  <div id="sEscondidos">
+                    <button class="botaos">MASCULINO</button>
+                    <button class="botaos">FEMININO</button>
+                  </div>
+                </div>
+                <style>
+                  #sRevelar {
+                    background-color: #D9D9D9;
+                    color: #000000;
+                    font-family: "Inter", sans-serif;
+                    font-size: 10px;
+                    padding: 5px 10px;
+                    display: block;
+                    /* Ajuste a posição do botão como desejar */
+                    margin: 0 auto;
+                    margin-bottom: 3px;
+                    margin-top: 45px;
+                    width: 500px;
+                    border-radius: 20px;
+                    border-color: #760000
+                  }
+                
+                  #sEscondidos {
+                    height: 0; /* Altura inicial zero */
+                    overflow: hidden; /* Esconde o conteúdo que excede a altura */
+                    transition: height 0.5s ease; /* Define a animação de transição */
+                  }
+                
+                  #sEscondidos.show {
+                    height: auto; /* Permite que a altura se ajuste ao conteúdo */
+                  }
+                
+                  .botaos {
+                    background-color: #D9D9D9;
+                    color: #000000;
+                    font-family: "Inter", sans-serif;
+                    font-size: 10px;
+                    padding: 5px 10px;
+                    display: block;
+                    width: 50%; /* Use largura relativa para responsividade */
+                    margin: 0 auto;
+                    margin-bottom: 3px;
+                    margin-top: 45px;
+                    border-radius: 20px;
+                    border-color: #FFFFFF;
+                    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); /* Sombra externa */
+                    transition: background-color 0.3 ease;
+                  }
+                  .botaos:hover {
+                    background-color: #760000;
+                  }
+                </style>
+                
+                <script>
+                  const sRevelar = document.getElementById('sRevelar');
+                  const sEscondidos = document.getElementById('sEscondidos');
+                
+                  sRevelar.addEventListener('click', () => {
+                    sEscondidos.classList.toggle('show');
+                  });
+                </script>
+
+                <div class="pt-2">
+                  <h6 class="text-start pt-2">Possui alergia a algum tipo de alimento?</h6>
+                  <button class="mibbbb" id="pRevelar" aria-label="Mostrar/esconder botões de medicação"></button>
+
+                    <div id="pEscondidos">
+                      <button class="botaop">SIM</button>
+                      <button class="botaop">Não</button>
+                    </div>
+                  </div>
+                  <style>
+                    #pRevelar {
+                      background-color: #D9D9D9;
+                      color: #000000;
+                      font-family: "Inter", sans-serif;
+                      font-size: 10px;
+                      padding: 5px 10px;
+                      display: block;
+                      /* Ajuste a posição do botão como desejar */
+                      margin: 0 auto;
+                      margin-bottom: 3px;
+                      margin-top: 45px;
+                      width: 500px;
+                      border-radius: 20px;
+                      border-color: #760000
+                    }
+                  
+                    #pEscondidos {
+                      height: 0; /* Altura inicial zero */
+                      overflow: hidden; /* Esconde o conteúdo que excede a altura */
+                      transition: height 0.5s ease; /* Define a animação de transição */
+                    }
+                  
+                    #pEscondidos.show {
+                      height: auto; /* Permite que a altura se ajuste ao conteúdo */
+                    }
+                  
+                    .botaop {
+                      background-color: #D9D9D9;
+                      color: #000000;
+                      font-family: "Inter", sans-serif;
+                      font-size: 10px;
+                      padding: 5px 10px;
+                      display: block;
+                      width: 50%; /* Use largura relativa para responsividade */
+                      margin: 0 auto;
+                      margin-bottom: 3px;
+                      margin-top: 45px;
+                      border-radius: 20px;
+                      border-color: #FFFFFF;
+                      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); /* Sombra externa */
+                      transition: background-color 0.3 ease;
+                    }
+                    .botaop:hover {
+                      background-color: #760000;
+                    }
+                  </style>
+                  
+                  <script>
+                    const pRevelar = document.getElementById('pRevelar');
+                    const pEscondidos = document.getElementById('pEscondidos');
+                  
+                    pRevelar.addEventListener('click', () => {
+                      pEscondidos.classList.toggle('show');
+                    });
+                  </script>
+
+                <div class="linha-separadora"></div>
+
+                <div class="d-grid gap-2 mt-4 mb-4 pb-4">
+                  <button class="btn btn-danger" type="button" style=" background-color: #760000;">SALVAR</button>
+                </div>
+                   
+                
+            </div>
+            
+          </main>
+
+          <footer class="container">
+            <p>SAÚDE CARDIOVASCULAR</p>
+            <p>Copyright ©2024 Conexa. Todos os direitos reservados</p>
+          </footer>

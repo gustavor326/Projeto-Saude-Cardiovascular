@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/*Fonte Inter*/
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/*Estilo do Body*/
+
+body {
+    background-color: #760000;
+    margin: 30px 100px;
+}
+/*Estilo do Cabeçalho*/
+
+header {
+    background-color: #ffffff;
+    display: flex;
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+a {
+    margin: auto;
+    text-decoration: none;
+    color: #4E4C4C;
+    font-family:"Inter", sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+}
+#imgsize1 {
+    max-height: 100px;
+}
+#imgsize2 {
+    max-height: 50px;
+    border-radius: 50%;
+    align-items: center;
+}
+#alinhamento {
+    margin: auto;
+    align-self: center;
+}
+/*Estilo do Conteúdo principal*/
+main {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 45px;
+    margin-bottom: 50px;
+}
+main > h1 {
+    color: #760000;
+    font-size: 2em;
+    font-family:"Inter", sans-serif;
+    text-align: center;
+}
+main > div {
+    background-color: #CEC8C8;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    color: #000000;
+    font-size: 1em;
+    font-family:"Inter", sans-serif;
+    width: auto;
+}
+main > div > a {
+    background-color: #760000;
+    border-radius: 20px;
+    padding: 3px 5px;
+    color: #ffffff;
+    font-family:"Inter", sans-serif;
+    border-style: none;
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0px;
+    align-self: center;
+}
+.imgperfil {
+    width: 150px;
+    border-radius: 20px;
+}
+/*Estilo do Rodapé*/
+footer {
+    background-color: #ffffff;
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+    margin: auto;
+    padding: 20px;
+    color: #4E4C4C;
+    font-family:"Inter", sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+}

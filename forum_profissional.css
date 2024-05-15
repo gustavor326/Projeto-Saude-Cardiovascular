@@ -1,0 +1,168 @@
+
+a {
+    text-decoration: none;
+    color: #4E4C4C;
+    font-family:"Inter", sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+footer {
+    line-height: 25px;
+    padding: 20px;
+    margin: auto;
+    max-width: 84.7rem;
+    background-color: #D3CBCB;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-top: 90px;
+    color: #000000;
+    font-family:"Inter", sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.SAUDE {
+    font-size: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #760000;
+    padding-top: 2.813rem;
+}
+
+nav {
+    background-color: white;
+    border-radius: 0.5rem;
+    max-width: 85.375rem;
+    width: 100%;
+    max-height: 9.25rem;
+    height: 100%;
+    padding: 1.25rem;
+    margin: auto;
+    font-size: 1.3rem;
+    color: #4E4C4C;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav img {
+    width: 9rem;
+    height: 6.75rem;
+}
+
+.flexboxlogin {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    gap: 0.625rem;
+}
+
+.flexboxlogin img {
+    margin: auto;
+    width: 4rem;
+    height: 4rem;
+}
+
+.titulo {
+    line-height: 130px;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', ;
+    margin: auto;
+    height: 650px;
+    max-width: 84.375rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin-top: 6%;
+    background-color: white;
+    color: #760000;
+}
+
+.container2 {
+    margin-top:20px ;
+    margin-left: 5%;
+    border-radius: 0.5rem;
+    max-width: 90%;
+    background-color: #C2C2C2;
+    display: flex;
+}
+
+.imagemdoutora {
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 0.5rem;
+    
+}
+
+.dra {
+    font-family: sans-serif;
+    margin-left: 30px;
+    font-size: 12px;
+    margin-top: 69px;
+    color: black;
+}
+
+.assunto {
+    font-family: sans-serif;
+    margin-top: 40px;
+    margin-left: 100px;
+    color: black;
+    font-size: 14px;
+}
+
+.assunto2 {
+    margin-top: -80px;
+    margin-right: 245px;
+    color: 000000;
+    font-size: 25px;
+}
+
+.container3 {
+    margin-top:20px ;
+    margin-left: 5%;
+    border-radius: 0.5rem;
+    max-width: 90%;
+    background-color: #C2C2C2;
+    display: flex;
+}
+
+.dr {
+    font-family: sans-serif;
+    margin-left: 70px;
+    font-size: 12px;
+    margin-top: 60px;
+    color: black;
+}
+
+
+.assunto3 {
+    font-family: sans-serif;
+    margin-top: 35px;
+    margin-left: 130px;
+    color: black;
+    font-size: 14px;
+}
+
+.assunto4{ 
+    margin-top: -80px;
+    color: 000000;
+    font-size: 25px;
+    margin-right: 185px;
+}

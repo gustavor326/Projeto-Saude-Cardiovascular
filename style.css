@@ -83,3 +83,14 @@ nav img {
     width: 4rem;
     height: 4rem;
 }
+
+/* Estilos para o Font Awesome (opcional) */
+.fa {
+    font-family: FontAwesome;
+}
+
+/* Estilos para o "olhinho" (opcional) */
+#olho {
+    cursor: pointer;
+    margin-left: 10px;
+}

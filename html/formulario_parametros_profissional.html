@@ -3,7 +3,7 @@
   <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Formulário Parâmetros - Profissional</title>
+      <title>Formulário Parâmetros - Usuario</title>
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
       <link rel="stylesheet" href="net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -93,7 +93,37 @@
                 <option value="opcao">0 minutos</option>
               </select>
             </div>
+        <div>
+            <p class="title mt-2"> Sobre atividade física</p>
+            <p class="pergunta"> Quantos minutos semanais você pratica exercícios?</p>
+            <div class="ps-3 pe-3">
+              <select class="form-select text-center " aria-label="Default select example" style="background-color: #D9D9D9;">
+                <option selected>Clique aqui e escolha a opção que engloba suas métricas</option>
+                <option value="opcao">≥150 minutos</option>
+                <option value="opcao">120-149 minutos</option>
+                <option value="opcao">90-119 minutos</option>
+                <option value="opcao">60-89 minutos</option>
+                <option value="opcao">30-59 minutos</option>
+                <option value="opcao">1-29 minutos</option>
+                <option value="opcao">0 minutos</option>
+              </select>
+            </div>
         </div>
+   
+
+        <div>
+            <p class="title mt-5"> Sobre exposição a nicotina</p>
+            <p class="pergunta"> Quanto ao uso de tabaco ou vape inalatório, em qual das opções abaixo você se encaixa?</p>
+            <div class="ps-3 pe-3">
+              <select class="form-select text-center" aria-label="Default select example" style="background-color: #D9D9D9;">
+                <option selected>Clique aqui e escolha a opção que engloba suas métricas</option>
+                <option value="opcao">Nunca fumou</option>
+                <option value="opcao">Ex-fumante, parou de fumar ≥5 anos</option>
+                <option value="opcao">Ex-fumante, parou de 1 a &lt; 5 anos</option>
+                <option value="opcao">Ex-fumante, parou &lt; 1 ano ou em uso atual de Vape inalatório</option>
+                <option value="opcao">Fumante atual</option>
+              </select>
+            </div>
    
 
         <div>
@@ -114,7 +144,21 @@
         <div>
             <p class="title mt-5"> Sobre saúde do Sono</p>
             <p class="pergunta">Qual sua média de horas de sono por noite? </p>
+        <div>
+            <p class="title mt-5"> Sobre saúde do Sono</p>
+            <p class="pergunta">Qual sua média de horas de sono por noite? </p>
 
+            <div class="ps-3 pe-3">
+              <select class="form-select text-center " aria-label="Default select example" style="background-color: #D9D9D9;">
+                <option selected>Clique aqui e escolha a opção que engloba suas métricas</option>
+                <option value="opcao">7-9 horas</option>
+                <option value="opcao">9-10 horas</option>
+                <option value="opcao">6-7 horas</option>
+                <option value="opcao">5-6 ou ≥10 horas</option>
+                <option value="opcao">4-5 horas</option>
+                <option value="opcao">4 horas</option>
+              </select>
+            </div>
             <div class="ps-3 pe-3">
               <select class="form-select text-center " aria-label="Default select example" style="background-color: #D9D9D9;">
                 <option selected>Clique aqui e escolha a opção que engloba suas métricas</option>
@@ -155,7 +199,38 @@
                 <option value="opcao">≥1.80m</option>
               </select>
             </div>
+        <div>
+            <p class="title mt-5" > Sobre Índice de massa corporal (IMC)</p>
+            <p class="pergunta"> Infome seu Peso: </p>
+
+            <div class="ps-3 pe-3">
+              <select class="form-select text-center " aria-label="Default select example" style="background-color: #D9D9D9;">
+                <option selected>Clique aqui e escolha a opção que engloba suas métricas</option>
+                <option value="opcao">&lt;50kg</option>
+                <option value="opcao">60-75kg</option>
+                <option value="opcao">75-90kg</option>
+                <option value="opcao">90-105kg</option>
+                <option value="opcao">≥105kg</option>
+              </select>
+            </div>
+
+
+            <p class="pergunta mt-2"> Infome sua Altura: </p>
+            <div class="ps-3 pe-3">
+              <select id="meuSelect" class="form-select text-center " aria-label="Default select example" style="background-color: #D9D9D9;">
+                <option selected>Clique aqui e escolha a opção que engloba suas métricas</option>
+                <option value="opcao">&lt;1.50m</option>
+                <option value="opcao">1.50-1.60m</option>
+                <option value="opcao">1.60-1.70m</option>
+                <option value="opcao">1.70-1.80m</option>
+                <option value="opcao">≥1.80m</option>
+              </select>
+            </div>
         </div>
+       
+        <div>
+        <p class="title mt-5" > Sobre lipídios do sangue (colesterol)</p>
+            <p class="pergunta">De acordo com seu último exame, selecione o seu nível de colesterol LDL: </p>
        
         <div>
         <p class="title mt-5" > Sobre lipídios do sangue (colesterol)</p>
@@ -183,12 +258,50 @@
                 <option value="opcao">≥220mg/dl</option>
               </select>
             </div>
+            <div class="ps-3 pe-3">
+              <select class="form-select text-center " aria-label="Default select example" style="background-color: #D9D9D9;">
+                <option selected>Clique aqui e escolha a opção que engloba suas métricas</option>
+                <option value="opcao">&lt;130mg/dl</option>
+                <option value="opcao">130-159mg/dl</option>
+                <option value="opcao">160-189mg/dl</option>
+                <option value="opcao">190-219mg/dl</option>
+                <option value="opcao">≥220mg/dl</option>
+              </select>
+            </div>
+          
+            <p class="pergunta mt-2">De acordo com seu último exame, selecione o seu nível de colesterol HDL: </p>
+            <div class="ps-3 pe-3">
+              <select class="form-select text-center " aria-label="Default select example" style="background-color: #D9D9D9;">
+                <option selected>Clique aqui e escolha a opção que engloba suas métricas</option>
+                <option value="opcao">&lt;130mg/dl</option>
+                <option value="opcao">130-159mg/dl</option>
+                <option value="opcao">160-189mg/dl</option>
+                <option value="opcao">190-219mg/dl</option>
+                <option value="opcao">≥220mg/dl</option>
+              </select>
+            </div>
         </div>
+
+        <div>
+        <p class="title mt-5" > Sobre glicemia</p>
 
         <div>
         <p class="title mt-5" > Sobre glicemia</p>
         <p class="pergunta">De acordo com seu último exame, selecione o seu nível de glicemia: </p>
 
+
+        <div class="ps-3 pe-3">
+          <select class="form-select text-center " aria-label="Default select example" style="background-color: #D9D9D9;">
+            <option selected>Clique aqui e escolha a opção que engloba suas métricas</option>
+            <option value="opcao">Sem história de diabetes e Gli &lt;100(ou HbA1c 5.7)</option>
+            <option value="opcao">Sem diabetes e Gli 100-125 (ou HbA1c 5,7-6,4) (pré-diabetes)</option>
+            <option value="opcao">Diabetes com HbA1c &lt;7.0</option>
+            <option value="opcao">Diabetes com HbA1c 7.0-7.9</option>
+            <option value="opcao">Diabetes com HbA1c 8.0-8.9</option>
+            <option value="opcao">Diabetes com HbA1c 8.0-8.9</option>
+            <option value="opcao">Diabetes com Hb A1c 9.0-9.9</option>
+            <option value="opcao">Diabetes com HbA1c ≥10.0</option>
+          </select>
 
         <div class="ps-3 pe-3">
           <select class="form-select text-center " aria-label="Default select example" style="background-color: #D9D9D9;">
@@ -208,8 +321,23 @@
       
        <div>
         <p class="title mt-5" > Sobre pressão arterial (PA)</p>
+
+      </div>
+      
+       <div>
+        <p class="title mt-5" > Sobre pressão arterial (PA)</p>
         <p class="pergunta">De acordo com o seu último exame selecione o seu nível de pressão: </p>
 
+          <div class="ps-3 pe-3">
+            <select class="form-select text-center " aria-label="Default select example" style="background-color: #D9D9D9;">
+              <option selected>Clique aqui e escolha a opção que engloba suas métricas</option>
+              <option value="opcao">&lt;120 &lt;80mmHg (ótimo)</option>
+              <option value="opcao">120-129/&lt;80mmHg (bom)</option>
+              <option value="opcao">130-139 ou 80-89mmHg (hipertensão estágio 1)</option>
+              <option value="opcao">140-159 ou 90-99mmHg</option>
+              <option value="opcao">≥160 ou ≥100mmHg</option>
+            </select>
+          </div>
           <div class="ps-3 pe-3">
             <select class="form-select text-center " aria-label="Default select example" style="background-color: #D9D9D9;">
               <option selected>Clique aqui e escolha a opção que engloba suas métricas</option>

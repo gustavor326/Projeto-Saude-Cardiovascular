@@ -17,20 +17,11 @@ function validarCPF() {
 
 }
 
-
-
 document.getElementById('cadastroForm').addEventListener('submit', function(event) {
     event.preventDefault();
     
     let nome = document.getElementById('nome2').value;
     let cpf = document.getElementById('cpf2').value;
-    let dataNascimento = document.getElementById('dataNascimento2').value;
-    let endereco = document.getElementById('endereco2').value;
-    let email = document.getElementById('email2').value;
-    let crm = document.getElementById('crm2').value;
-    let especialidade = document.getElementById('especialidade2').value;
-    let carteiraProfissional = document.getElementById('carteiraProfissional2').files[0];
-
     if (!/^[A-Za-z\s]+$/.test(nome)) {
         alert('Nome deve conter apenas letras.');
         return;

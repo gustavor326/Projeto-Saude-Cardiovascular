@@ -29,8 +29,8 @@
             <nav>
                 <ul>
                     <li><img src="../Imagens/logo.png" alt=""></li>
-                    <li><a href="../html/index.html">Início</a></li>
-                    <li><a href="#sobre">Pacientes</a></li>
+                    <li><a href="">Início</a></li>
+                    <li><a href="../html/resultados-profissional.html">Pacientes</a></li>
                     <li><a href="../html/forum_profissional.html">Fórum</a></li>
                     <li>
                         <div class="flexboxlogin">
@@ -39,13 +39,35 @@
                         </div>
                     </li>
                 </ul>
+                <div class="navbutton">
+                    <img src="../Imagens/logo.png" alt="">
+                    <button onclick="showSidebar()"><img src="../Imagens/menu_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" class="hamburguer"></button>
+                </div>
             </nav>
+
+
+            <div class="sidebar">
+                <img onclick="closeSidebar()" src="../Imagens/close_24dp_FILL0_wght400_GRAD0_opsz24.svg" class="closesidebar">
+                <ul>
+                  <li><img src="../Imagens/logo.png" alt=""></li>
+                  <li><a href="">Início</a></li>
+                  <li><a href="../html/resultados-profissional.html">Pacientes</a></li>
+                  <li><a href="../html/forum_profissional.html">Fórum</a></li>
+                  <li>
+                      <div class="flexboxlogin">
+                        <a href="../html/cadastro.html"><img src="../Imagens/Helena.jpeg" alt="">
+                          <p>Helena</p></a>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+
           </div>
         </header>
               
 
-          <main class="bg-white mt-4 rounded p-4 container">
-          
+          <main class=" container">
+          <div class="bg-white mt-4 rounded p-4">
             <div>
             <h4>Seja Bem-vindo!</h3>
                 <p> 
@@ -166,13 +188,28 @@
             </a>     
 
             </div>
-            
+          </div>
           </main>
 
           <footer class="container">
             <p>SAÚDE CARDIOVASCULAR</p>
             <p>Copyright ©2024 Conexa. Todos os direitos reservados</p>
           </footer>
+        
+          <script>
+            function showSidebar() {
+              const sidebar = document.querySelector(".sidebar")
+      
+              sidebar.style.display = "flex"
+            };
+      
+      
+            function closeSidebar() {
+              const sidebar = document.querySelector(".sidebar")
+      
+              sidebar.style.display = "none"
+            }
+          </script>
 
         </body>
 </html>

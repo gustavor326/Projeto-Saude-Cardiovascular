@@ -28,7 +28,7 @@
             <nav>
                 <ul>
                     <li><img src="../Imagens/logo.png" alt=""></li>
-                    <li><a href="../html/index.html">Sobre a Saúde Cardiovascular</a></li>
+                    <li><a href="../index.html">Sobre a Saúde Cardiovascular</a></li>
                     <li>
                         <div class="flexboxlogin">
                           <a href=""><img src="../Imagens/Ellipse 2.png" alt="">
@@ -36,13 +36,32 @@
                         </div>
                     </li>
                 </ul>
+                <div class="navbutton">
+                  <img src="../Imagens/logo.png" alt="">
+                  <button onclick="showSidebar()"><img src="../Imagens/menu_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" class="hamburguer"></button>
+              </div>
             </nav>
+
+            <div class="sidebar">
+              <img onclick="closeSidebar()" src="../Imagens/close_24dp_FILL0_wght400_GRAD0_opsz24.svg" class="closesidebar">
+              <ul>
+                <li><img src="../Imagens/logo.png" alt=""></li>
+                <li><a href="../index.html">Sobre a Saúde<br>Cardiovascular</a></li>
+                <li>
+                    <div class="flexboxlogin">
+                      <a href="../html/cadastro.html"><img src="../Imagens/Ellipse 2.png" alt="">
+                        <p>Faça seu Login</p></a>
+                    </div>
+                </li>
+              </ul>
+            </div>
+
           </div>
         </header>
 
 
-        <main>
-         <div class="container text-center mt-4 text-dark rounded bg-white pt-4 mb-5">
+        <main class="container">
+         <div class="ps-4 pe-4 text-center mt-4 text-dark rounded bg-white pt-4 mb-5">
             <img class="pb-4" src="../Imagens/Escolha_uma_opção.png" alt="">
           <form action="">
             <p class="termo">SOU USUÁRIO CONVENCIONAL</p>
@@ -67,6 +86,21 @@
             <p>SAÚDE CARDIOVASCULAR</p>
             <p>Copyright ©2024 Conexa. Todos os direitos reservados</p>
         </footer>
+
+        <script>
+          function showSidebar() {
+            const sidebar = document.querySelector(".sidebar")
+    
+            sidebar.style.display = "flex"
+          };
+    
+    
+          function closeSidebar() {
+            const sidebar = document.querySelector(".sidebar")
+    
+            sidebar.style.display = "none"
+          }
+        </script>
 
       <script src="../javascript/usuario_profissional.js"></script>
 

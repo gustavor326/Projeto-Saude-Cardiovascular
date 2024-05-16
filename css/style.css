@@ -84,13 +84,64 @@ nav img {
     height: 4rem;
 }
 
-/* Estilos para o Font Awesome (opcional) */
-.fa {
-    font-family: FontAwesome;
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: white;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: none;
 }
 
-/* Estilos para o "olhinho" (opcional) */
-#olho {
+.sidebar ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    list-style: none;
+}
+
+.closesidebar {
+    width: 20px;
+    height: 20px;
+    position: absolute;
     cursor: pointer;
-    margin-left: 10px;
+}
+
+.navbutton {
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+
+    .navbutton {
+        display: flex;
+        gap: 30px;
+        justify-content: space-between;
+    }
+    .navbutton button {
+        border: none;
+        background-color: white;
+    }
+
+
+    .navbutton img {
+        width: 70px;
+        height: 50px;
+    }
+    
+    .hamburguer{
+        width: 35px;
+        height: 35px;
+    }
+
+    
 }

@@ -105,7 +105,8 @@ nav img {
 }
 
 .imagemdoutora {
-    margin-top: 10px;
+    clip-path: circle(60%);
+    margin-top: 40px;
     margin-left: 20px;
     border: 0.5rem;
     
@@ -115,13 +116,13 @@ nav img {
     font-family: sans-serif;
     margin-left: 30px;
     font-size: 12px;
-    margin-top: 69px;
+    margin-top: 50px;
     color: black;
 }
 
 .assunto {
     font-family: sans-serif;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 100px;
     color: black;
     font-size: 14px;
@@ -145,17 +146,23 @@ nav img {
 
 .dr {
     font-family: sans-serif;
-    margin-left: 70px;
+    margin-left: -30px;
     font-size: 12px;
     margin-top: 60px;
     color: black;
 }
 
+.imagemdoutor {
+    margin-left: -45px;
+    clip-path: circle(60%);
+    margin-top: 40px;
+    border: 0.5rem;
+}
 
 .assunto3 {
     font-family: sans-serif;
-    margin-top: 35px;
-    margin-left: 130px;
+    margin-top: 25px;
+    margin-left: 180px;
     color: black;
     font-size: 14px;
 }
@@ -165,67 +172,4 @@ nav img {
     color: 000000;
     font-size: 25px;
     margin-right: 185px;
-}
-
-
-.sidebar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 250px;
-    z-index: 999;
-    background-color: white;
-    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    display: none;
-}
-
-.sidebar ul {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    align-items: center;
-    list-style: none;
-}
-
-.closesidebar {
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    cursor: pointer;
-}
-
-.navbutton {
-    display: none;
-}
-
-
-@media screen and (max-width: 768px) {
-    nav ul {
-        display: none;
-    }
-
-    .navbutton {
-        display: flex;
-        gap: 30px;
-        justify-content: space-between;
-    }
-    .navbutton button {
-        border: none;
-        background-color: white;
-    }
-
-
-    .navbutton img {
-        width: 70px;
-        height: 50px;
-    }
-    
-    .hamburguer{
-        width: 35px;
-        height: 35px;
-    }
-
-    
 }

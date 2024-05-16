@@ -57,7 +57,7 @@ document.getElementById('cadastroForm2').addEventListener('submit', function(eve
     }
 
     
-    window.location.href = 'dados_fixo_usuário.html';
+    window.location.href = 'dados_fixo_usuario.html';
 });
 
 

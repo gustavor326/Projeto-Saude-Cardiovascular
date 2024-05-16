@@ -16,7 +16,7 @@ submitButton.addEventListener('click', function(event) {
 
     
     if (validar()) {
-        window.location.href = 'usuario_profissional.html'; 
+        window.location.href = 'termo_de_acordo.html'; 
     }
 });
 

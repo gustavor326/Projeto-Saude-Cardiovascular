@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro do Paciente</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../Imagens/icone.ico" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+    
+        .cor_letra{
+            color: #760000;
+        }
+       
+    </style>
+</head>
+
+<body>
+
+            <header>
+              <div class="container">
+              <nav>
+                  <ul>
+                      <li><img src="../Imagens/logo.png" alt=""></li>
+                      <li><a href="../html/index.html">Inicio</a></li>
+                      <li><a href="index.html">Pacientes</a></li>
+                      <li><a href="index.html">Forúm</a></li>
+                      <li>
+                          <div class="flexboxlogin">
+                            <a href="../html/cadastro.html"><img src="../Imagens/Helena.jpeg" alt="">
+                              <p>Helena</p></a>
+                          </div>
+                      </li>
+                  </ul>
+              </nav>
+            </div>
+          </header>
+
+
+          <main class="container">
+            <div class="container text-center mt-4 text-dark rounded bg-white pt-4">
+                <h1 class="title" style="color: #760000;" > Identificação do Paciente </h1>
+                <div class="pt-4">
+                <h6 class="text-start mt-3">Nome completo do paciente:</h6>
+                    <input type="text" id="Nome" class="form-control mt-3" aria-describedby="name" placeholder="Digite aqui"> </input>
+                </div>
+        
+                <div class="pt-2">
+                    <h6 class="text-start mt-4">CPF do paciente:</h6>
+                        <input type="text" id="CPF" class="form-control mt-6" aria-describedby="name" placeholder="Digite aqui"></div>
+
+                <div class="pt-2">
+                    <h6 class="text-start mt-4">O paciente possui alguma desssas doenças cardiovasculares?</h6>
+                    <div class="d-grid gap-2 mt-5 ">
+                        <button class="btn  meu-botao" type="button" style=" color: rgb(48, 47, 48); background-color: #bfc0be;"><strong>Diabetes</strong></button>
+                    </div>
+
+                        <div class="d-grid gap-2 mt-5 mb-4">
+                        
+                            <button class="btn  meu-hiper" type="button"  style="background-color:#bfc0be ;" ><strong>Hipertensão</strong></button>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-5 mb-4">
+                            <button class="btn  meu-disli" type="button" style="background-color: #bfc0be;"> <strong>Dislipidemia(Colesterol alto)</strong></button>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-5 mb-5">
+                            <button class="btn meu-ou" type="button" style="background-color:  #bfc0be;"><strong>Outros</strong></button>
+                        </div>
+                
+                        <div class="container text-center mt-4 text-dark rounded bg-white pt-4 mb-5">
+                    <div class="dropdown container text-center m-">
+                    <h6 class="text-start pt-2 ps-1"> O paciente faz uso de medicação continuada?</h6>
+
+                     <select class="form-select text-center " aria-label="Default select example" style="background-color: #D9D9D9;">
+                        <option selected></option>
+                        <option value="opcao">SIM</option>
+                        <option value="opcao">NÃO</option>
+                    </select>
+                </div>
+
+                <h6 class="text-start pt-2 ps-3">O paciente possui historico de doenças cardiovasculares na familia?</h6>
+                <div class="dropdown container text-center">
+        
+                    <select class="form-select text-center " aria-label="Default select example" style="background-color: #D9D9D9;">
+                        <option selected></option>
+                        <option value="opcao">SIM</option>
+                        <option value="opcao">NÃO</option>
+                    </select>
+                </div>
+
+                <h6 class="text-start pt-2 ps-3">Qual o sexo do paciente?</h6>
+                <div class="dropdown container text-center">
+            
+                   <select class="form-select text-center " aria-label="Default select example" style="background-color: #D9D9D9;">
+                        <option selected></option>
+                        <option value="opcao">SIM</option>
+                        <option value="opcao">NÃO</option>
+                    </select>
+                </div>
+
+                <h6 class="text-start pt-2 ps-3">O paciente possui alergia a algum tipo de alimento?</h6>
+                <div class="dropdown container text-center">
+                   
+                   <select class="form-select text-center mb-5" aria-label="Default select example" style="background-color: #D9D9D9;">
+                        <option selected></option>
+                        <option value="opcao">SIM</option>
+                        <option value="opcao">NÃO</option>
+                    </select>
+                </div>
+
+                <div class="d-grid gap-2 mt-5 mb-4 pb-5">
+                    <button class="btn btn-danger" type="button" style=" background-color: #760000;">SALVAR</button>        
+                </div>
+
+             </main>
+
+          <footer class="container">
+            <p>SAÚDE CARDIOVASCULAR</p>
+            <p>Copyright ©2024 Conexa. Todos os direitos reservados</p>
+          </footer>
+
+    </body>
+</html>

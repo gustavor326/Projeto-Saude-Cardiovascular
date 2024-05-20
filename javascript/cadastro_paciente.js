@@ -32,15 +32,5 @@ document.getElementById('cadastroForm').addEventListener('submit', function(even
         return;
     }
 
-    if (!/^\d{6}$/.test(crm)) {
-        alert('CRM deve conter exatamente 6 dígitos.');
-        return;
-    }
-
-    if (!carteiraProfissional) {
-        alert('Anexe sua carteira profissional.');
-        return;
-    }
-
     window.location.href = 'portal_profissional.html';
 });

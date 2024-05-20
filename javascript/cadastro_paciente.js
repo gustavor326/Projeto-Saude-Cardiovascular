@@ -32,5 +32,5 @@ document.getElementById('cadastroForm').addEventListener('submit', function(even
         return;
     }
 
-    window.location.href = 'portal_profissional.html';
+    window.location.href = 'cadastro_paciente_final.html';
 });

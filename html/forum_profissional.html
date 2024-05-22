@@ -1,113 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fórum Profissional</title>
-
     <link rel="stylesheet" href="../css/forum_profissional.css">
     <link rel="shortcut icon" href="../Imagens/icone.ico" type="image/x-icon">
 </head>
 <body>
+    <!--Cabeçalho-->
     <header>
-
-      <div class="container">
-        <nav>
-            <ul>
-                <li><img src="../Imagens/logo.png" alt=""></li>
-                <li><a href="/index.html">Início</a></li>
-                <li><a href="../html/resultados-profissional.html">Pacientes</a></li>
-                <li><a href="">Fórum</a></li>
-                <li>
-                    <div class="flexboxlogin">
-                      <a href="../html/cadastro.html"><img style="width: 50%; height: 60%;" src="../Imagens/Helena.jpeg" alt="">
-                        <p>Helena</p></a>
-                    </div>
-                </li>
-            </ul>
-
-            <div class="navbutton">
-              <img src="../Imagens/logo.png" alt="">
-              <button onclick="showSidebar()"><img src="../Imagens/menu_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" class="hamburguer"></button>
-            </div>
-        </nav>
-
-        <div class="sidebar">
-          <img onclick="closeSidebar()" src="../Imagens/close_24dp_FILL0_wght400_GRAD0_opsz24.svg" class="closesidebar">
-          <ul>
-            <li><img src="../Imagens/logo.png" alt=""></li>
-            <li><a href="../html/portal_profissional.html">Início</a></li>
-            <li><a href="../html/resultados-profissional.html">Pacientes</a></li>
-            <li><a href="../html/forum_profissional.html">Fórum</a></li>
-            <li>
-                <div class="flexboxlogin">
-                  <a href="../html/cadastro.html"><img src="../Imagens/Helena.jpeg" alt="">
-                    <p>Helena</p></a>
-                </div>
-            </li>
-          </ul>
+        <img src="../Imagens/Cardio_+-removebg-preview.png" alt="Logo da Saúde Cardiovascular" id="imgsize1">
+        <a href="../html/portal_profissional.html"><p>Início</p></a>
+        <a href="../html/resultados-profissional.html"><p>Pacientes</p></a>
+        <a href="../html/forum_profissional.html"><p>Fórum</p></a>
+        <div id="alinhamento">
+            <a href="../html/portal_profissional.html">
+                <img src="../Imagens/doctor1.jpeg" alt="Imagem de um usuário" id="imgsize2">
+                <p>Helena</p>
+            </a>
         </div>
-      </div>
-
     </header>
-
-
-    <main class="container">
-        <div class="titulo">
-            <div class="tituloforum">
-            <h1>FÓRUM</h1>
-        </div>
-        <div class="container2">
-            <div class="imagemdoutora">
-                <img src="../Imagens/mariana.jpg" style="border-radius: 100px; margin-top: 20px; margin-bottom: -20px;" width="150" height="150">
-            </div>
-            <div class="dra">
-            <h1>Dra. Júlia Nascimento</h1>
-            </div>
-            <div class="assunto">
-                <h1>Assunto: Palestra sobre alimentação saudável</h1>
-                    <div class="assunto2">
-                        <a href="#">Clique e participe da discussão</a>
-                    </div>
+    <!--Conteúdo Principal-->
+    <main id="pacientes">
+        <h1>Fórum</h1>
+        <div>
+            <img src="../Imagens/MÉDICA PERFIL.jpeg" alt="" class="imgperfil">
+            <p class="titulo_negrito">Dra. Júlia Nascimento</p>
+            <div>
+              <p class="titulo_negrito">Assunto: Palestra sobre alimentação saudável</p>
+              <a href="#">
+                <p class="italico">Clique e participe da discussão</p>
+              </a>
             </div>
         </div>
-        <div class="container3">
-            <div class="imagemdoutora">
-                <img src="../Imagens/homem.jpg" style="border-radius: 100px; margin-top: 20px; margin-bottom: -20px;" width="150" height="150">
+        <div>
+            <img src="../Imagens/homem.jpg" alt="" class="imgperfil">
+            <p class="titulo_negrito">Ricardo Nunes</p>
+            <div>
+              <p class="titulo_negrito">Assunto: Vamos praticar Ioga no Parque?</p>
+              <a href="#">
+                <p class="italico">Clique e participe da discussão</p>
+              </a>
             </div>
-            <div class="dr">
-            <h1>Ricardo Nunes</h1>
-            </div>
-                <div class="assunto3">
-                    <h1>Assunto: Vamos praticar Ioga no Parque?</h1>
-                <div class="assunto4">
-                    <a href="#">Clique e participe da discussão</a>
-                </div>
-    </div>
+        </div>
     </main>
-
-    <footer>
-        <DIV CLASS="SAUDE">
-        <p>SAÚDE CARDIOVASCULAR.</p>
-        </DIV>
-        <H2>Copyright &copy; 2024 Saúde Cardiovascular. Todos os direitos reservados.</H2>
+     <!--Rodapé-->
+     <footer>
+        <p>SAÚDE CARDIOVASCULAR</p>
+        <p>Copyright ©2024 Conexa. Todos os direitos reservados</p>
     </footer>
-    <br><br>
-
-    <script>
-        function showSidebar() {
-          const sidebar = document.querySelector(".sidebar")
-  
-          sidebar.style.display = "flex"
-        };
-  
-  
-        function closeSidebar() {
-          const sidebar = document.querySelector(".sidebar")
-  
-          sidebar.style.display = "none"
-        }
-      </script>
-
 </body>
 </html>
